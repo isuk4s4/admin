@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background:#2A283A;
+}
+
+    form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    ::placeholder{
+      text-transform: capitalize;
+    }
+    
+    #logininputs
+    {
+        font-family: 'Open Sans', sans-serif;
+        
+      text-transform: none;
+     width: 231px;
+     padding: 12px;
+        margin-bottom: 20px;
+ border: none;
+ border-bottom: 1px solid #A7A7A7;
+  
+        outline: none;
+        background: transparent;
+        color: white;
+    }
+    .loginbtn{
+      padding: 15px;
+      width: 163px;
+      border: none;
+      outline: none;
+      color: white;
+      background: #685cac;
+      font-family: 'Open Sans', sans-serif;
+      border-radius: 10px;
+      outline: none;
+
+    }
+    .adv{
+      background: #32DE84;
+    }
+    .textlogin{
+        color: #ffffff;
+        font-size: 40px;
+        margin-bottom: 51px;
+            font-family: 'Mulish', sans-serif;
+    ;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+
+  }
+.alert:nth-child(even){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  .background{
+      width: 50%;
+height: 100%;
+background: #211f2c;
+position: absolute;
+  }
+
+  .background img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .loginforms{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+  }
+  @media (max-width:646px) {
+      .background{
+          width: 100%;
+      }
+      
+  .background img{
+display: none;
+  }
+  .loginforms {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+  }
+  .frogot{
+    width: 100%;
+    height: 40px;
+    background: #504880;
+position: absolute;
+bottom: 0%;
+}
+.iconbox{
+  width: 40px;
+  height: 40px;
+  background: #37344a;
+  box-shadow: 0px 0px 20px 0px #0000004d;
+  border-radius:5px ;
+  color: #6c63ff;
+  margin-left: 10px;
+
+}
+.ativebox{
+  background: #32DE84;
+}
+.iconbox #boxicons{
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.flex{
+  display: flex;
+}
+.dislogin{
+  display: none;
+}
